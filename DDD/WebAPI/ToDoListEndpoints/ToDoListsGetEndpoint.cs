@@ -1,6 +1,7 @@
 ﻿using Ardalis.ApiEndpoints;
 using AutoMapper;
 using Core;
+using Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
@@ -14,13 +15,17 @@ public class ToDoListsGetEndpoint : EndpointBaseAsync
     .WithResult<IActionResult>
 {
     private readonly IMapper _mapper;
-    private readonly IBoardRepository _boardRepository;
+    // private readonly IBoardRepository _boardRepository;
+    private readonly ToDoContext _context;
 
     public ToDoListsGetEndpoint(IMapper mapper, 
-        IBoardRepository boardRepository)
+        // IBoardRepository boardRepository,
+        ToDoContext context
+        )
     {
         _mapper = mapper;
-        _boardRepository = boardRepository;
+        // _boardRepository = boardRepository;
+        _context = context;
     }
 
     [HttpGet("/todolists")]
@@ -32,7 +37,8 @@ public class ToDoListsGetEndpoint : EndpointBaseAsync
     ]
     public override async Task<IActionResult> HandleAsync(CancellationToken token)
     {
-        var board = await _boardRepository.Get();
+        // var board = await _boardRepository.Get();
+        var board = _context.Board;
         if (board is null)
             return BadRequest();
 

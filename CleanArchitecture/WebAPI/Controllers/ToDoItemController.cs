@@ -6,11 +6,11 @@ namespace WebAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class ToDoItemListController : ControllerBase
+public class ToDoItemController : ControllerBase
 {
     private readonly IToDoItemService _toDoItemService;
 
-    public ToDoItemListController(IToDoItemService toDoItemService)
+    public ToDoItemController(IToDoItemService toDoItemService)
     {
         _toDoItemService = toDoItemService;
     }
