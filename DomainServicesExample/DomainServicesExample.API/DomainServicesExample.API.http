@@ -1,0 +1,6 @@
+@DomainServicesExample.API_HostAddress = http://localhost:5286
+
+GET {{DomainServicesExample.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -28,7 +28,7 @@ public class ToDoListsGetEndpoint : EndpointBaseAsync
         _context = context;
     }
 
-    [HttpGet("/todolists")]
+    [HttpGet(Resources.ToDoListRoute)]
     [SwaggerOperation(
         Summary = "Gets all To Do Lists",
         Description = "Gets all To Do Lists",

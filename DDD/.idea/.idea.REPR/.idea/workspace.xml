@@ -12,13 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a02ea28d-2535-419b-800e-af9bb28b3515" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/Board.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/IAggregateRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/IBoardRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/BoardRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../REPR/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/../REPR/.idea/config/applicationhost.config" afterDir="false" />
-    </list>
+    <list default="true" id="a02ea28d-2535-419b-800e-af9bb28b3515" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +36,10 @@
     "accountId": "e3d50cf3-7d1d-41d7-947a-a9bc7e665553"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/TemporaryWork/Project Structures New/REPR/.idea/config/applicationhost.config" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -53,7 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.WebAPI: IIS Express.executor": "Debug",
+    ".NET Launch Settings Profile.WebAPI: IIS Express.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -172,16 +170,37 @@
       <option name="presentableId" value="Default" />
       <updated>1726848020459</updated>
       <workItem from="1726848023981" duration="17816000" />
-      <workItem from="1726927109689" duration="4827000" />
+      <workItem from="1726927109689" duration="20479000" />
     </task>
+    <task id="LOCAL-00001" summary="DDD Project">
+      <option name="closed" value="true" />
+      <created>1726932712811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726932712811</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updating Presentation">
+      <option name="closed" value="true" />
+      <created>1726934435828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726934435828</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="DDD Project" />
+    <MESSAGE value="Updating Presentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating Presentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -198,19 +217,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WebAPI/ToDoItemEndpoints/ToDoItemsUpdateEndpoint.cs</url>
-          <line>29</line>
-          <properties documentPath="C:\TemporaryWork\Project Structures New\DDD\WebAPI\ToDoItemEndpoints\ToDoItemsUpdateEndpoint.cs" containingFunctionPresentation="Method 'HandleAsync'">
-            <startOffsets>
-              <option value="941" />
-            </startOffsets>
-            <endOffsets>
-              <option value="982" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

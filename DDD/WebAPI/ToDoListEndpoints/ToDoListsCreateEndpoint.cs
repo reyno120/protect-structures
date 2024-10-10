@@ -18,7 +18,7 @@ public class ToDoListsCreateEndpoint : EndpointBaseAsync
         _boardRepository = boardRepository;
     }
 
-    [HttpPost("/todolists")]
+    [HttpPost(Resources.ToDoListRoute)]
     [SwaggerOperation(
         Summary = "Creates a new To Do List",
         Description = "Creates a new To Do List",
